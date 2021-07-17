@@ -25,3 +25,6 @@ boolean detele(Long id);
 //update
 boolean updateById(Account);
 ```
+
+## notice
+the Pojo class need id field named "id" or Pojo's super class have this field
