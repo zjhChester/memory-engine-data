@@ -1,10 +1,10 @@
 # HOW TO USE IT
-### 1.create a interface and extend IEngine<Pojo> Pojo is a model class
+### 1.create an interface and extend IEngine<Pojo> Pojo is a model class
 ``` java
 public interface IAccountDao extends IEngine<Account>{
 }
 ```
-### 2.create an normal class extend AbstractEngine<Pojo> and implements the interface in step 1
+### 2.create a normal class extend AbstractEngine<Pojo> and implements the interface in step 1
 ```java
 public class AccountDaoImpl extends AbstractEngine<Account>  implements IAccountDao<Account>{
 
