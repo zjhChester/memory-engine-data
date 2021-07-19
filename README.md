@@ -28,3 +28,31 @@ boolean updateById(Account);
 
 ## notice
 the Pojo class need id field named "id" or Pojo's super class have this field
+
+---
+## 2.0 add API about findList 
+use QueryWrapper to select List by conditions:   
+```java
+List<T> findList(QueryWrapper queryWrapper);
+```
+Parameters list in QueryWrapper's methods
+```java
+QueryWrapper equals(String fieldName,Object fieldValue);
+QueryWrapper lessThan(String fieldName,Object fieldValue);
+QueryWrapper moreThan(String fieldName,Object fieldValue);
+QueryWrapper like(String fieldName,Object fieldValue);
+```
+example:
+```java
+QueryWrapper queryWrapper = new QueryWrapper();
+queryWrapper = queryWrapper.equals("fieldName",ObjectValue);
+new DaoImpl().findList(queryWrapper);
+```
+use chain call to append your conditions
+```java
+QueryWrapper queryWrapper = new QueryWrapper();
+queryWrapper = queryWrapper.equals("note","likeNote")
+        .lessThan("age",19)
+        .moreThan("age",15)
+        .like("name","jiahao");
+```
