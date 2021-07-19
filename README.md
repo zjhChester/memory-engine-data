@@ -35,7 +35,7 @@ use QueryWrapper to select List by conditions:
 ```java
 List<T> findList(QueryWrapper queryWrapper);
 ```
-Parameters list in QueryWrapper's methods
+parameters list in QueryWrapper's methods
 ```java
 QueryWrapper equals(String fieldName,Object fieldValue);
 QueryWrapper lessThan(String fieldName,Object fieldValue);
@@ -48,7 +48,7 @@ QueryWrapper queryWrapper = new QueryWrapper();
 queryWrapper = queryWrapper.equals("fieldName",ObjectValue);
 new DaoImpl().findList(queryWrapper);
 ```
-use chain call to append your conditions
+use chain call to append your conditions:
 ```java
 QueryWrapper queryWrapper = new QueryWrapper();
 queryWrapper = queryWrapper.equals("note","likeNote")
