@@ -12,14 +12,14 @@ public class EngineObj<T> {
         this.targetClass = targetClass;
     }
 
-    public Object getSource() {
+    public T getSource() {
         return source;
     }
 
-    public void setSource(Object source) {
+    public void setSource(T source) {
         this.source = source;
     }
 
     private Class<T> targetClass;
-    private Object source;
+    private T source;
 }

@@ -1,14 +1,20 @@
+xyz/jiahao/memory/engine/wrapper/model/WrapperEntity.java
+ xyz.jiahao.memory.engine.wrapper.model.WrapperEntity
 xyz/jiahao/memory/engine/utils/CollectionUtils.java
  xyz.jiahao.memory.engine.utils.CollectionUtils
 xyz/jiahao/memory/engine/common/model/EngineObj.java
  xyz.jiahao.memory.engine.common.model.EngineObj
 xyz/jiahao/memory/engine/IEngine.java
  xyz.jiahao.memory.engine.IEngine
-xyz/jiahao/memory/engine/converter/ObjectConverter.java
- xyz.jiahao.memory.engine.converter.ObjectConverter
+xyz/jiahao/memory/engine/wrapper/IQueryWrapper.java
+ xyz.jiahao.memory.engine.wrapper.IQueryWrapper
 xyz/jiahao/memory/engine/utils/StringUtils.java
  xyz.jiahao.memory.engine.utils.StringUtils
 xyz/jiahao/memory/engine/AbstractEngine.java
  xyz.jiahao.memory.engine.AbstractEngine
+xyz/jiahao/memory/engine/common/WrapperConditions.java
+ xyz.jiahao.memory.engine.common.WrapperConditions
+xyz/jiahao/memory/engine/wrapper/QueryWrapper.java
+ xyz.jiahao.memory.engine.wrapper.QueryWrapper
 xyz/jiahao/memory/engine/common/Constants.java
  xyz.jiahao.memory.engine.common.Constants
